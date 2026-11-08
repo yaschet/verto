@@ -1,0 +1,11 @@
+{
+    "globs": ["**/*.md"],
+    "ignores": ["node_modules/**", ".next/**", "coverage/**", "LICENSE", "handbook/LICENSE"],
+    "config": {
+        "MD010": { "code_blocks": false },
+        "MD013": false,
+        "MD033": false,
+        "MD041": true,
+        "MD060": false,
+    },
+}

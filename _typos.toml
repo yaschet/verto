@@ -1,0 +1,15 @@
+[files]
+extend-exclude = ["pnpm-lock.yaml", "LICENSE", "handbook/LICENSE", "THIRD_PARTY_NOTICES.md", "public/fonts/*", "fixtures/engine-cases.json", "coverage/*", "node_modules/*", ".next/*"]
+[default.extend-words]
+Verto = "Verto"
+TipTap = "TipTap"
+ProseMirror = "ProseMirror"
+Supabase = "Supabase"
+MuPDF = "MuPDF"
+Chettouch = "Chettouch"
+yaschet = "yaschet"
+ND = "ND"
+BA = "BA"
+FO = "FO"
+PN = "PN"
+truncat = "truncat"

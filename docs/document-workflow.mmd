@@ -1,0 +1,12 @@
+%% SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+%% Copyright (c) 2026 Yassine Chettouch
+flowchart LR
+    A[PDF or image] --> B[Page images]
+    B --> C[Vision translation]
+    C --> D[Structured document]
+    D --> E[QA and verification]
+    E --> F[Editable review]
+    F --> G[Google Docs]
+    G --> H[DOCX and exports]
+    T[Trigger.dev tasks] -. checkpoint and report progress .-> C
+    S[(Supabase)] -. auth, state and storage .-> F
