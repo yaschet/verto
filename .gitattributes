@@ -1,0 +1,11 @@
+* text=auto eol=lf
+handbook/** linguist-documentation
+docs/** linguist-documentation
+.github/assets/** linguist-documentation
+fixtures/** linguist-documentation
+pnpm-lock.yaml linguist-generated
+src/types/database/* linguist-generated
+*.pdf binary
+*.png binary
+*.webp binary
+*.woff2 binary
