@@ -1,0 +1,21 @@
+name: Bug report
+description: Report a reproducible problem using synthetic data.
+title: 'bug: '
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Include minimal steps and synthetic input. Do not include credentials or private documents.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Release and environment

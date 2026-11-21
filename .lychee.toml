@@ -1,0 +1,8 @@
+# Public external links and local documentation share the same checker.
+max_concurrency = 4
+max_retries = 2
+timeout = 25
+accept = [200, 206, 429]
+exclude = ["^mailto:", "^http://localhost", "^https://github.com/yaschet/verto(?:/|$)", "^https://img.shields.io/github/v/release/yaschet/verto"]
+exclude_path = ["node_modules", ".next", "coverage"]
+include_fragments = "full"

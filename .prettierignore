@@ -1,0 +1,8 @@
+node_modules
+.next
+.trigger
+coverage
+pnpm-lock.yaml
+LICENSE
+handbook/LICENSE
+THIRD_PARTY_NOTICES.md

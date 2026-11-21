@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.trigger/
+.env*
+!.env.example
+coverage/
+*.tsbuildinfo
+.DS_Store
+.pnpm-store/
+next-env.d.ts
